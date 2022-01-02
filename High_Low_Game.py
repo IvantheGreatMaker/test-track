@@ -2,10 +2,6 @@
 # coding: utf-8
 
 # High Low game
-
-# In[1]:
-
-
 import random
 num = random.randrange(0,101)
 ll=0
@@ -25,16 +21,3 @@ while(num != guess):
         guess = int(guess)
         
 print("Congrats the number was ",num)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
